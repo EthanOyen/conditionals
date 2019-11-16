@@ -41,22 +41,22 @@ print("weight in kgs: " + str(weightlb / 2.205))
 #6)create a list (seat1 = 1, seat2 = 1, seat3 = 0, seat4 = 1), Now make an if elseif, else statement that checks if a seat is open. if the seat = 1 its closed and print that it's closed. If the seat = 0, it's open and print that it's open. If no seats are open print "There are no available seats"
 '''
 seats = [1, 1, 0, 1]
-if seats.index[0:3] == 1:
+if seats[0:3] == 1:
     print("There are no available seats")
 else:
-    if seats.index(0) == 0:
+    if seats[0] == 0:
         print("Seat 1 is open")
     else:
         print("Seat 1 is closed")
-    if seats.index(1) == 0:
+    if seats[1] == 0:
         print("Seat 2 is open")
     else:
         print("Seat 2 is closed")
-    if seats.index(2) == 0:
+    if seats[2] == 0:
         print("Seat 3 is open")
     else:
         print("Seat 3 is closed")
-    if seats.index(4) == 0:
+    if seats[3] == 0:
         print("Seat 4 is open")
     else:
         print("Seat 4 is closed")
